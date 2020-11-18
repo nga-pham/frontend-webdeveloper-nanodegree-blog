@@ -35,3 +35,20 @@ body {
 .form-inline {
   padding: 8px 0;
 }
+
+/* Jumbotron */
+.featured {
+  background-color: #343a40 !important;
+  color: white !important;
+}
+.featured-link {
+  font: 1.6rem;
+  color: white;
+}
+.featured-link:hover,
+.featured-link::after,
+.featured-link:active,
+.featured-link:visited {
+  color: inherit;
+  text-decoration: transparent;
+}
