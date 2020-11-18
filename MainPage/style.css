@@ -8,13 +8,11 @@ body {
 }
 
 /* Navigation bar  */
-.my-navbar {
+.navbar {
   padding: 0 32px;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.6); */
-  border-bottom: 3px solid red;
   background-color: #f1f1f1;
 }
-
 .navbar-brand:hover,
 .navbar-brand::after,
 .navbar-brand:active,
@@ -28,4 +26,12 @@ body {
   height: 120px;
   border-top: 32px;
   padding: 32px 0;
+}
+.nav-link {
+  text-decoration: transparent;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.6rem;
+}
+.form-inline {
+  padding: 8px 0;
 }
