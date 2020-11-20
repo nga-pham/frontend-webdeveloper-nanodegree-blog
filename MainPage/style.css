@@ -57,30 +57,12 @@ body {
   text-decoration: transparent;
 }
 
-/* card region */
-.card-container {
-  border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  margin-left: 16px;
-}
-.card-body {
-  margin-top: 32px;
-}
-.card-img-right {
-  padding-right: 26px !important;
-}
-.card-title {
-  color: black;
+/* Summary  */
+.summary-content {
+  text-align: justify;
 }
 
-/* Main */
-.main-container {
-  margin-top: 32px;
-}
-.main-title {
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
-  font-style: italic;
-}
-.blog-post-title {
-  margin-top: 32px;
+/* Album */
+.album {
+  margin: 32px 0 0;
 }
