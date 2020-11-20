@@ -66,3 +66,32 @@ body {
 .album {
   margin: 32px 0 0;
 }
+.album-title {
+  text-align: center;
+}
+.card {
+  margin-bottom: 32px !important;
+  box-shadow: 2px 2px 4px 4px #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.card-text {
+  margin: 16px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+  align-items: center;
+}
+.btn-group {
+  margin-bottom: 8px;
+}
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.btn:hover {
+  background: white;
+}
