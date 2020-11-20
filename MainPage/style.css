@@ -144,3 +144,6 @@ body {
   flex-direction: row;
   margin: 0 16px;
 }
+.archive-list {
+  text-align: left;
+}
