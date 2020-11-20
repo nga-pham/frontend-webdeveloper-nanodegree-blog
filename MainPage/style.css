@@ -66,11 +66,14 @@ body {
 .album {
   margin: 32px 0 0;
 }
-.card {
+.album-card {
   margin-bottom: 32px !important;
   box-shadow: 2px 2px 4px 4px #ccc;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  padding: 16px 8px 0;
 }
 .card-text {
   margin: 16px;
