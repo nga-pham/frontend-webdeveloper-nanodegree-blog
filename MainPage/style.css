@@ -66,9 +66,6 @@ body {
 .album {
   margin: 32px 0 0;
 }
-.album-title {
-  text-align: center;
-}
 .card {
   margin-bottom: 32px !important;
   box-shadow: 2px 2px 4px 4px #ccc;
@@ -94,4 +91,8 @@ body {
 }
 .btn:hover {
   background: white;
+}
+/* About  */
+.about-title {
+  text-align: center;
 }
