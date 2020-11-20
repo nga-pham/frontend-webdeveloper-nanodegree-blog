@@ -10,7 +10,7 @@ body {
 /* Navigation bar  */
 .navbar {
   padding: 0 32px;
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.6); */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important; */
   background-color: #f1f1f1;
 }
 .navbar-brand:hover,
@@ -54,4 +54,16 @@ body {
 .featured-link:visited {
   color: inherit;
   text-decoration: transparent;
+}
+
+/* card region */
+.card-container {
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  margin-left: 16px;
+}
+.card-body {
+  margin-top: 32px;
+}
+.card-img-right {
+  padding-right: 26px !important;
 }
