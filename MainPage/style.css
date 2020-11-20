@@ -95,6 +95,15 @@ body {
 .btn:hover {
   background: white;
 }
+.view-more-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-more {
+  text-decoration: transparent;
+  font-size: 1.6rem;
+}
 /* About  */
 .about-title {
   text-align: center;
