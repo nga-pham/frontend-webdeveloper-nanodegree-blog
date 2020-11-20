@@ -105,6 +105,32 @@ body {
   font-size: 1.6rem;
 }
 /* About  */
+.about-card {
+  margin: 32px 0 0;
+  width: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  /* box-shadow: 0 0 0 2px #ccc; */
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.about-card .row {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
 .about-title {
-  text-align: center;
+  /* text-align: center; */
+}
+.card {
+  margin: 0 16px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
