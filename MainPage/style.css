@@ -45,7 +45,8 @@ body {
   font: 3rem;
 }
 .featured-link {
-  font: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   color: white;
 }
 .featured-link:hover,
@@ -66,4 +67,7 @@ body {
 }
 .card-img-right {
   padding-right: 26px !important;
+}
+.card-title {
+  color: black;
 }
