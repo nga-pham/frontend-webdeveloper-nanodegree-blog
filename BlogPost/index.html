@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../base.css">
+
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -45,9 +47,6 @@
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
-                        <!-- <form class="form-inline">
-                            <button class="btn btn-outline-primary" type="submit">Sign up</button>
-                        </form> -->
                     </div><!-- /.collapse nav -->
                 </div>
             </nav><!-- navbar -->
@@ -65,7 +64,7 @@
             </div><!-- jumbotron -->
         </div>
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
@@ -90,37 +89,36 @@
                         </div>
                     </div>
                 </div><!-- col 1 -->
-                <div class="col-md-6">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-8 card-body">
-                                <strong class="d-inline-block mb-2 text-success">Style</strong>
-                                <h3 class="mb-0">
-                                    <a class="text-dark card-title" href="#">Post title</a>
-                                </h3>
-                                <div class="mb-1 text-muted">Nov 11</div>
-                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
-                                    natural
-                                    lead-in to additional content.</p>
-                                <a href="#">Continue reading</a>
-                            </div>
-                            <div class="col-md-4">
-                                <img class="card-img-right flex-auto d-none d-md-block"
-                                    data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                    style="width: 200px; height: 250px;"
-                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_175dacbd9c7%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_175dacbd9c7%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.20833206176758%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-                                    data-holder-rendered="true">
-                            </div>
+            <!-- <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-8 card-body">
+                            <strong class="d-inline-block mb-2 text-success">Style</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark card-title" href="#">Post title</a>
+                            </h3>
+                            <div class="mb-1 text-muted">Nov 11</div>
+                            <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                natural
+                                lead-in to additional content.</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="card-img-right flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 200px; height: 250px;"
+                                src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_175dacbd9c7%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_175dacbd9c7%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.20833206176758%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                data-holder-rendered="true">
                         </div>
                     </div>
-                </div><!-- col 2 -->
-            </div><!-- /.row -->
+                </div>
+            </div>col 2 -->
         </div><!-- /.container -->
         <main role="main" class="container main-container">
             <div class="row">
                 <div class="col-md-8 blog-main">
                     <h3 class="pb-3 mb-4 main-title">
-                        From the Firehose
+                        Technology`
                     </h3>
 
                     <div class="blog-post">
@@ -172,44 +170,6 @@
                         </p>
                     </div><!-- /.blog-post -->
 
-                    <div class="blog-post">
-                        <h1 class="blog-post-title">Another blog post</h1>
-                        <p class="blog-post-meta text-muted">December 23, 2013 by <a href="#">Jacob</a></p>
-
-                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur
-                            ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-                            vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet
-                            fermentum.</p>
-                        <blockquote>
-                            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong>
-                                ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </blockquote>
-                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
-                            amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                            commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus,
-                            porta ac consectetur ac, vestibulum at eros.</p>
-                    </div><!-- /.blog-post -->
-
-                    <div class="blog-post">
-                        <h1 class="blog-post-title">New feature</h1>
-                        <p class="blog-post-meta text-muted">December 14, 2013 by <a href="#">Chris</a></p>
-
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
-                            lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
-                            justo sit amet risus.</p>
-                        <ul>
-                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                            <li>Donec id elit non mi porta gravida at eget metus.</li>
-                            <li>Nulla vitae elit libero, a pharetra augue.</li>
-                        </ul>
-                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
-                            amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra
-                            augue.</p>
-                    </div><!-- /.blog-post -->
-
                     <nav class="blog-pagination">
                         <a class="btn btn-outline-primary" href="#">Older</a>
                         <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
@@ -217,40 +177,85 @@
 
                 </div><!-- /.blog-main -->
 
-                <aside class="col-md-4 blog-sidebar">
-                    <div class="p-3 mb-3 bg-light rounded">
-                        <h4 class="font-italic">About</h4>
-                        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
-                            purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    </div>
+                <aside class="col-md-4">
+                    <div class="row">
+                        <div class="container">
+                            <div class="about-card">
+                                <div class="row">
+                                    <img class="card-img-top avatar" alt="avatar" src="images/unnamed.png"
+                                        data-holder-rendered="true">
+                                </div>
+                                <div class="row about-content">
+                                    <div>
+                                        <h2>About me</h2>
+                                    </div>
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                            eu
+                                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                                            in
+                                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
 
-                    <div class="p-3">
-                        <h4 class="font-italic">Archives</h4>
-                        <ol class="list-unstyled mb-0">
-                            <li><a href="#">March 2014</a></li>
-                            <li><a href="#">February 2014</a></li>
-                            <li><a href="#">January 2014</a></li>
-                            <li><a href="#">December 2013</a></li>
-                            <li><a href="#">November 2013</a></li>
-                            <li><a href="#">October 2013</a></li>
-                            <li><a href="#">September 2013</a></li>
-                            <li><a href="#">August 2013</a></li>
-                            <li><a href="#">July 2013</a></li>
-                            <li><a href="#">June 2013</a></li>
-                            <li><a href="#">May 2013</a></li>
-                            <li><a href="#">April 2013</a></li>
-                        </ol>
-                    </div>
+                                </div>
+                                <div class="row about-content">
+                                    <div>
+                                        <h2>Stay connected</h2>
+                                    </div>
+                                    <div class="about-social-network">
+                                        <div><i class="fab fa-facebook-square"></i></div>
+                                        <div><i class="fab fa-twitter-square"></i></div>
+                                        <div><i class="fab fa-linkedin"></i></div>
+                                        <div><i class="fab fa-github-square"></i></div>
+                                    </div>
+                                    <div></div>
+                                </div>
+                                <div class="row about-content">
+                                    <div>
+                                        <h2>Search</h2>
 
-                    <div class="p-3">
-                        <h4 class="font-italic">Elsewhere</h4>
-                        <ol class="list-unstyled">
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
-                        </ol>
+                                    </div>
+                                    <div>
+                                        <form class="form-inline">
+                                            <input class="form-control mr-sm-2" type="search"
+                                                placeholder="Type keyword here" aria-label="Search">
+                                            <button class="btn btn-outline-success my-2 my-sm-0"
+                                                type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="row about-content">
+                                    <div>
+                                        <h2>Blog Archive</h2>
+                                    </div>
+                                    <div>
+                                        <ol class="list-unstyled mb-0 archive-list">
+                                            <li><a href="#">March 2014</a></li>
+                                            <li><a href="#">February 2014</a></li>
+                                            <li><a href="#">January 2014</a></li>
+                                            <li><a href="#">December 2013</a></li>
+                                            <li><a href="#">November 2013</a></li>
+                                            <li><a href="#">October 2013</a></li>
+                                            <li><a href="#">September 2013</a></li>
+                                            <li><a href="#">August 2013</a></li>
+                                            <li><a href="#">July 2013</a></li>
+                                            <li><a href="#">June 2013</a></li>
+                                            <li><a href="#">May 2013</a></li>
+                                            <li><a href="#">April 2013</a></li>
+                                        </ol>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </aside><!-- /.blog-sidebar -->
+                </aside> <!-- /.blog-sidebar -->
+            </div>
 
             </div><!-- /.row -->
 
