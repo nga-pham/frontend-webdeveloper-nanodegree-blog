@@ -14,7 +14,16 @@
   background-color: rgba(0, 0, 0, 0.05);
   padding: 16px 8px 0;
 }
-
+.card-title {
+  color: black;
+  text-decoration: transparent;
+}
+.card-title:hover,
+.card-title:active,
+.card-title:visited,
+.card-title::after {
+  color: inherit;
+}
 .card-text {
   margin-top: 16px;
 }
