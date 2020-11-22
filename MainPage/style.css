@@ -12,17 +12,15 @@
   box-shadow: 2px 2px 4px 4px #ccc;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.05);
-}
-.card-title {
   padding: 16px 8px 0;
 }
+
 .card-text {
-  margin: 16px;
+  margin-top: 16px;
 }
 .card-footer {
   display: flex;
   justify-content: space-between;
-  margin: 0 16px;
   align-items: center;
 }
 .btn-group {
