@@ -24,6 +24,11 @@
 .card-title::after {
   color: inherit;
 }
+.figure-caption {
+  padding-top: 8px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 1rem;
+}
 .card-text {
   margin-top: 16px;
 }
