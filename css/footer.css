@@ -1,0 +1,9 @@
+/* Footer */
+.blog-footer {
+  color: white;
+  text-align: center;
+  background-color: #5bc0de;
+  height: 120px;
+  border-top: 32px;
+  padding: 32px 0;
+}

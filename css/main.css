@@ -1,3 +1,9 @@
+@import "./navigation.css";
+@import "./jumbotron.css";
+@import "./about.css";
+@import "./footer.css";
+@import "./blog.css";
+@import "./homepage.css";
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -5,105 +11,4 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-}
-
-/* Navigation bar  */
-.navbar {
-  padding: 0 32px;
-  background-color: #5bc0de;
-}
-.navbar-brand:hover,
-.navbar-brand::after,
-.navbar-brand:active,
-.navbar-brand:visited {
-  color: white;
-}
-
-.nav-link {
-  text-decoration: transparent;
-  /* color: rgba(0, 0, 0, 0.6); */
-  color: white;
-  font-size: 1.6rem;
-}
-.form-inline {
-  padding: 8px 0;
-  color: black;
-}
-
-/* Jumbotron */
-.featured {
-  background-color: #fbd2d7 !important;
-  color: rgba(0, 0, 0, 0.8) !important;
-}
-.featured-title {
-  font: 3rem;
-}
-.featured-link {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: white;
-}
-.featured-link:hover,
-.featured-link::after,
-.featured-link:active,
-.featured-link:visited {
-  color: inherit;
-  text-decoration: transparent;
-}
-
-/* About  */
-.about-card {
-  margin: 32px 0 0;
-  width: 30%;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  background-color: rgba(0, 0, 0, 0.05);
-}
-.about-card .row {
-  display: flex;
-  justify-content: center;
-  margin: 16px 0;
-}
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
-}
-.card {
-  margin: 0 16px;
-}
-.avatar {
-  vertical-align: middle;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-.about-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  padding: 0 16px;
-  margin: 16px 0;
-}
-.about-social-network {
-  display: flex;
-  flex-direction: row;
-  margin: 0 16px;
-}
-.about-content .btn {
-  color: black;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-}
-.archive-list {
-  text-align: left;
-}
-
-/* Footer */
-.blog-footer {
-  color: white;
-  text-align: center;
-  background-color: #5bc0de;
-  height: 120px;
-  border-top: 32px;
-  padding: 32px 0;
 }

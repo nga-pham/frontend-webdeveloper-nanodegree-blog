@@ -1,0 +1,21 @@
+
+/* Jumbotron */
+.featured {
+    background-color: #fbd2d7 !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .featured-title {
+    font: 3rem;
+  }
+  .featured-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+  }
+  .featured-link:hover,
+  .featured-link::after,
+  .featured-link:active,
+  .featured-link:visited {
+    color: inherit;
+    text-decoration: transparent;
+  }s
