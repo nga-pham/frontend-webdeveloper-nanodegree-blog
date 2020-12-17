@@ -11,3 +11,10 @@
 .blog-post-title {
   margin-top: 32px;
 }
+.blog-post-meta {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
+}
+blockquote {
+  font-style: italic;
+}
