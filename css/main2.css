@@ -17,6 +17,25 @@ body {
   line-height: 1.5;
   background: #fff;
 }
+.no-gutters {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main container  */
 .container {
   display: grid;
   width: 100%;
@@ -54,16 +73,4 @@ nav {
 }
 footer {
   grid-area: footer;
-}
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
