@@ -1,0 +1,12 @@
+/* Main */
+.main-container {
+  margin-top: 32px;
+}
+.main-title {
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+  font-style: italic;
+}
+.blog-post-title {
+  margin-top: 32px;
+}

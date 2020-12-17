@@ -1,7 +1,7 @@
 @import "./navigation2.css";
 @import "./about2.css";
 @import "./footer2.css";
-@import "./blog.css";
+@import "./blog2.css";
 @import "./homepage2.css";
 
 /* Main Styles */
@@ -59,7 +59,7 @@ a {
 .showcase {
   grid-area: showcase;
 }
-nav {
+#nav {
   grid-area: header;
 }
 #main {
