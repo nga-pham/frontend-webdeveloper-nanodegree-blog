@@ -16,7 +16,7 @@ body {
   display: grid;
   width: 100%;
   margin: auto;
-  grid-template-rows: 80px 1fr 160px;
+  grid-template-rows: 60px 1fr 160px;
   grid-template-columns: 600px 1fr;
   grid-template-areas:
     "header header header header"
@@ -32,7 +32,6 @@ body {
   border: 1px solid red;
   align-items: center;
   /* justify-content: center; */
-  /* padding: 15px; */
 }
 nav {
   grid-area: header;
