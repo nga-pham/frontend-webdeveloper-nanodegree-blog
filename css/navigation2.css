@@ -1,0 +1,15 @@
+/* Navigation bar  */
+.navbar {
+  padding: 0 32px;
+  background-color: #5bc0de;
+}
+.navbar-brand {
+  font-size: 1em;
+  text-decoration: none;
+}
+.navbar-brand:hover,
+.navbar-brand::after,
+.navbar-brand:active,
+.navbar-brand:visited {
+  color: white;
+}

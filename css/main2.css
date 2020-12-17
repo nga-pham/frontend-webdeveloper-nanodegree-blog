@@ -1,4 +1,4 @@
-@import "./navigation.css";
+@import "./navigation2.css";
 @import "./jumbotron.css";
 @import "./about.css";
 @import "./footer.css";
@@ -22,17 +22,15 @@ body {
     "header header header header"
     "main main main sidebar"
     "footer footer footer footer";
-  /* border: 1px solid #000; */
   justify-content: center;
   grid-gap: 15px;
 }
 .box {
   display: flex;
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid blue;
   align-items: center;
   justify-content: center;
-  /* padding: 15px; */
 }
 nav {
   grid-area: header;
@@ -45,4 +43,15 @@ nav {
 }
 footer {
   grid-area: footer;
+}
+.nav {
+  width: 100%;
+  padding: 0 32px;
+  background-color: #5bc0de;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
