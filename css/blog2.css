@@ -18,3 +18,12 @@
 blockquote {
   font-style: italic;
 }
+.blog-pagination {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.blog-pagination a {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 8px 16px;
+}
