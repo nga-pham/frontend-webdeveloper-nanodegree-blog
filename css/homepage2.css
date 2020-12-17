@@ -6,6 +6,7 @@
 }
 /* Album */
 .album {
+  margin-top: 8px;
   grid-area: album;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,5 +64,5 @@
 }
 .view-more {
   text-decoration: transparent;
-  font-size: 1.6rem;
+  /* font-size: 1rem; */
 }

@@ -1,6 +1,5 @@
 @import "./navigation2.css";
-@import "./jumbotron.css";
-@import "./about.css";
+@import "./about2.css";
 @import "./footer.css";
 @import "./blog.css";
 @import "./homepage2.css";
@@ -55,7 +54,6 @@ a {
 .box {
   display: flex;
   width: 100%;
-  border: 1px solid red;
   align-items: center;
   /* justify-content: center; */
 }
