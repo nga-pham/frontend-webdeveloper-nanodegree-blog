@@ -1,5 +1,5 @@
 /* Main Container  */
-#main {
+.main {
   display: grid;
   grid-template-rows: 1fr 60px;
   grid-template-areas: "album" "view-more";
