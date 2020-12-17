@@ -1,0 +1,27 @@
+/* Navigation bar  */
+.nav {
+  padding: 0 32px;
+  background-color: #5bc0de;
+}
+.navbar-brand {
+  color: blue;
+  font-size: 1.6rem;
+}
+.navbar-brand:hover,
+.navbar-brand::after,
+.navbar-brand:active,
+.navbar-brand:visited {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1rem;
+  padding: 0 16px;
+}
+.nav-link:hover,
+.nav-link::after,
+.nav-link:active {
+  background-color: #eeeeee;
+  color: #23527c;
+}

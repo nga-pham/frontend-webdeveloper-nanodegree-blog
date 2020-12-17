@@ -1,4 +1,4 @@
-@import "./navigation.css";
+@import "./navigation2.css";
 @import "./jumbotron.css";
 @import "./about.css";
 @import "./footer.css";
@@ -31,7 +31,7 @@ body {
   width: 100%;
   border: 1px solid red;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* padding: 15px; */
 }
 nav {
@@ -45,4 +45,16 @@ nav {
 }
 footer {
   grid-area: footer;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
