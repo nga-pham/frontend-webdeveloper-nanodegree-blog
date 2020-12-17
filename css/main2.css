@@ -54,9 +54,9 @@ a {
 .box {
   display: flex;
   width: 100%;
-  align-items: center;
+  /* align-items: center; */
 }
-.showcase {
+#showcase {
   grid-area: showcase;
 }
 #nav {

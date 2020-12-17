@@ -5,8 +5,8 @@
   border-radius: 5px;
 }
 .navbar-brand {
-  color: blue;
-  font-size: 1.6rem;
+  color: white;
+  font-size: 1.2rem;
 }
 .navbar-brand:hover,
 .navbar-brand::after,
@@ -30,7 +30,7 @@
   height: 32px;
 }
 /* Showcase */
-.showcase {
+#showcase {
   height: 360px;
   border-radius: 5px;
 

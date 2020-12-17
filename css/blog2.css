@@ -1,6 +1,6 @@
 /* Main */
-.main-container {
-  margin-top: 32px;
+#main {
+  border: 1px solid green;
 }
 .main-title {
   padding-bottom: 8px;
