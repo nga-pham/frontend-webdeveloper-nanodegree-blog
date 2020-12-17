@@ -1,0 +1,11 @@
+/* Footer */
+.blog-footer {
+  flex-direction: column;
+  color: white;
+  background-color: #5bc0de;
+  border-top: 32px;
+}
+.blog-footer div {
+  height: 50%;
+  line-height: 60px;
+}

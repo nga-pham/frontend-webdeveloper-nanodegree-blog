@@ -1,6 +1,6 @@
 @import "./navigation2.css";
 @import "./about2.css";
-@import "./footer.css";
+@import "./footer2.css";
 @import "./blog.css";
 @import "./homepage2.css";
 
@@ -55,7 +55,6 @@ a {
   display: flex;
   width: 100%;
   align-items: center;
-  /* justify-content: center; */
 }
 .showcase {
   grid-area: showcase;
