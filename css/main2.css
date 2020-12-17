@@ -20,6 +20,7 @@ body {
   grid-template-columns: 600px 1fr;
   grid-template-areas:
     "header header header header"
+    "showcase showcase showcase showcase"
     "main main main sidebar"
     "footer footer footer footer";
   /* border: 1px solid #000; */
@@ -32,6 +33,9 @@ body {
   border: 1px solid red;
   align-items: center;
   /* justify-content: center; */
+}
+.showcase {
+  grid-area: showcase;
 }
 nav {
   grid-area: header;

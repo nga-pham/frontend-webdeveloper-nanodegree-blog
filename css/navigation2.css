@@ -2,6 +2,7 @@
 .nav {
   padding: 0 32px;
   background-color: #5bc0de;
+  border-radius: 5px;
 }
 .navbar-brand {
   color: blue;
@@ -27,4 +28,12 @@
 }
 .btn-search {
   height: 32px;
+}
+/* Showcase */
+.showcase {
+  height: 360px;
+  border-radius: 5px;
+
+  background-color: #fbd2d7;
+  color: rgba(0, 0, 0, 0.8);
 }
