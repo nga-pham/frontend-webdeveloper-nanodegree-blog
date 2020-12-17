@@ -22,6 +22,7 @@
 }
 .card-title {
   color: black;
+  text-decoration: transparent;
 }
 .card-title:hover,
 .card-title:active,
