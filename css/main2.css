@@ -3,7 +3,11 @@
 @import "./about.css";
 @import "./footer.css";
 @import "./blog.css";
-@import "./homepage.css";
+@import "./homepage2.css";
+
+/* Main Styles */
+
+html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -11,13 +15,15 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  background: #fff;
 }
 .container {
   display: grid;
   width: 100%;
   margin: auto;
-  grid-template-rows: 60px 1fr 160px;
-  grid-template-columns: 600px 1fr;
+  grid-template-rows: 60px 1fr 1fr 120px;
+  /* grid-template-columns: 600px 1fr; */
+  grid-template-columns: 1fr 200px;
   grid-template-areas:
     "header header header header"
     "showcase showcase showcase showcase"
