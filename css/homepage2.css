@@ -2,20 +2,19 @@
 #main {
   display: grid;
   grid-template-rows: 1fr 60px;
-  grid-template-areas: "card" "view-more";
+  grid-template-areas: "album" "view-more";
 }
-.card-container {
-  grid-area: card;
+/* Album */
+.album {
+  grid-area: album;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .view-more {
   grid-area: view-more;
 }
-/* Album */
-.album {
-  margin: 32px 0 0;
-}
-.album-card {
-  margin-bottom: 32px !important;
+.card {
+  margin-bottom: 32px;
   box-shadow: 2px 2px 4px 4px #ccc;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.05);
