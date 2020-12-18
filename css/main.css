@@ -3,6 +3,7 @@
 @import "./footer.css";
 @import "./blog.css";
 @import "./homepage.css";
+@import "./media.css";
 
 /* Main Styles */
 
@@ -47,14 +48,12 @@ a {
     "showcase showcase showcase showcase"
     "main main main sidebar"
     "footer footer footer footer";
-  /* border: 1px solid #000; */
   justify-content: center;
   grid-gap: 15px;
 }
 .box {
   display: flex;
   width: 100%;
-  /* align-items: center; */
 }
 #showcase {
   grid-area: showcase;

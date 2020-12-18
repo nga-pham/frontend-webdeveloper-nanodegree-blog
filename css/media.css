@@ -1,0 +1,38 @@
+/* Media Queries */
+
+/* Tablet and smaller */
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .album {
+    grid-template-columns: 1fr;
+  }
+
+  /* navigation */
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Smart Screen */
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .album {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    max-width: 100px;
+  }
+
+  p {
+    max-width: 100%;
+  }
+}
