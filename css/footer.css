@@ -1,9 +1,10 @@
 /* Footer */
 .blog-footer {
+  flex-direction: column;
   color: white;
-  text-align: center;
   background-color: #5bc0de;
-  height: 120px;
-  border-top: 32px;
-  padding: 32px 0;
+}
+.blog-footer div {
+  text-align: center;
+  margin: auto;
 }

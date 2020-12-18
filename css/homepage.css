@@ -1,14 +1,21 @@
-/* Summary  */
-.summary-content {
-  text-align: justify;
+/* Main Container  */
+.main {
+  display: grid;
+  grid-template-rows: 1fr 60px;
+  grid-template-areas: "album" "view-more";
 }
-
 /* Album */
 .album {
-  margin: 32px 0 0;
+  margin-top: 8px;
+  grid-area: album;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.album-card {
-  margin-bottom: 32px !important;
+.view-more {
+  grid-area: view-more;
+}
+.card {
+  margin: 0 32px 32px;
   box-shadow: 2px 2px 4px 4px #ccc;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -24,10 +31,10 @@
 .card-title::after {
   color: inherit;
 }
+
 .figure-caption {
-  padding-top: 8px !important;
-  color: rgba(0, 0, 0, 0.6) !important;
-  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8rem;
 }
 .card-text {
   margin-top: 16px;
@@ -41,13 +48,15 @@
   margin-bottom: 8px;
 }
 .btn {
-  border: 1px solid rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.05);
   cursor: pointer;
 }
 .btn:hover {
   background: white;
 }
+/* View more  */
 .view-more-container {
   display: flex;
   align-items: center;
@@ -55,5 +64,4 @@
 }
 .view-more {
   text-decoration: transparent;
-  font-size: 1.6rem;
 }
