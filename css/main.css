@@ -41,7 +41,6 @@ a {
   width: 100%;
   margin: auto;
   grid-template-rows: 60px 1fr 1fr 120px;
-  /* grid-template-columns: 600px 1fr; */
   grid-template-columns: 1fr 200px;
   grid-template-areas:
     "header header header header"

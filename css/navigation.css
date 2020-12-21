@@ -4,7 +4,11 @@
   background-color: #5bc0de;
   border-radius: 5px;
 }
+
 .navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 1.2rem;
 }

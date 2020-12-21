@@ -2,18 +2,21 @@
 
 /* Tablet and smaller */
 @media (max-width: 800px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-
   .album {
     grid-template-columns: 1fr;
   }
 
   /* navigation */
-  nav {
-    display: flex;
+  header {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .flex-col {
     flex-direction: column;
+  }
+  .nav-list {
+    justify-content: center;
+    margin: auto;
   }
 }
 
