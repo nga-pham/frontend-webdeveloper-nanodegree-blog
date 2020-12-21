@@ -19,6 +19,12 @@
     margin: auto;
   }
 }
+@media (max-width: 1200px) {
+  .showcase-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "col-md-6";
+  }
+}
 
 /* Smart Screen */
 
@@ -27,7 +33,7 @@
     grid-template-columns: 1fr;
   }
 
-  .album {
+  .main {
     grid-template-columns: 1fr;
   }
 
